@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="SeleniumBasics" verbose="1">
+    <test name="seleniumtests">
+        <classes>
+            <class name="selenium.TestSeleniumBasics"/>
+<!--            <class name="selenium.TestPopupAlerts"/>-->
+<!--            <class name="selenium.TestHandleIFrame"/>-->
+<!--            <class name="selenium.TestAction"/>-->
+<!--            <class name="selenium.TestScreenshotEx"/>-->
+            <class name="selenium.TestWait"/>
+        </classes>
+    </test>
+</suite>
