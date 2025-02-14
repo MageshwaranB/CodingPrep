@@ -5,7 +5,7 @@ public class ConvertMixedAlphaNumericToAlphabets {
         String input="a2b3c4d1";
         String alphabetString="";
         for (int i=0;i<input.length();i++){
-            var currentCharacter=input.charAt(i);
+//            var currentCharacter=input.charAt(i);
             System.out.println("Current Character :"+input.charAt(i));
             if (Character.isAlphabetic(input.charAt(i))){
                 alphabetString=alphabetString+input.charAt(i);
